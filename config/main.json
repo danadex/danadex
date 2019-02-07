@@ -34,6 +34,7 @@
     { "addr": "0x12b306fa98f4cbb8d4457fdff3a0a0a56f07ccdf", "name": "SXDT", "decimals": 18 },
     { "addr": "0x69b0adec3cb113132c970f3440302df81962d7f6", "name": "RIGS", "decimals": 8 },
     { "addr": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359", "name": "DAI", "decimals": 18 },
+    { "addr": "0x1602af2c782cc03f9241992e243290fccf73bb13", "name": "QBIT", "decimals": 18 },
     { "addr": "0xe3818504c1b32bf1557b16c238b2e01fd3149c17", "name": "PLR", "decimals": 18 }
   ],
   "defaultPair": { "token": "DAI", "base": "ETH" }
