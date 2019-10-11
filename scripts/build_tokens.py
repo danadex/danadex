@@ -6,8 +6,8 @@ import yaml
 TOKEN_KEYS_MAPPING = { "addr": "addr", "symbol": "name", "decimals": "decimals" }
 def make_listing_entry(defn):
     token = { dst_key: defn[src_key] for (src_key, dst_key) in TOKEN_KEYS_MAPPING.items() }
-    if "__PINEXZ_CUSTOM_SYMBOL" in defn:
-        token["name"] = defn["__PINEXZ_CUSTOM_SYMBOL"]
+    if "__DANADEX_CUSTOM_SYMBOL" in defn:
+        token["name"] = defn["__DANADEX_CUSTOM_SYMBOL"]
     return token
 
 GUIDE_HTML_TEMPLATE = """<blockquote>
